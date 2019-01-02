@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CaelinCore
 
 enum SoundButton {
     case metal
@@ -26,7 +27,7 @@ class HomeView: UIView {
     
     init(delegate: HomeViewDelegate) {
         self.delegate = delegate
-        buttons = Standards.stackView(showing: [metal, corridor], along: .vertical)
+        buttons = Standards.stack(showing: [metal, corridor], along: .vertical)
         super.init(frame: .zero)
         self.backgroundColor = .white
         self.setup()

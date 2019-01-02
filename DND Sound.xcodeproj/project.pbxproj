@@ -12,8 +12,6 @@
 		0D9F20C421DC542100210761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D9F20C221DC542100210761 /* LaunchScreen.storyboard */; };
 		0D9F20CD21DC549700210761 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9F20CB21DC549700210761 /* HomeViewController.swift */; };
 		0D9F20CE21DC549700210761 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9F20CC21DC549700210761 /* HomeView.swift */; };
-		0D9F20D121DC85F300210761 /* Standards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9F20D021DC85F300210761 /* Standards.swift */; };
-		0D9F20D521DC8CFC00210761 /* UIControl+Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9F20D421DC8CFC00210761 /* UIControl+Closures.swift */; };
 		0D9F20DE21DC931A00210761 /* left.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D9F20D721DC931A00210761 /* left.mp3 */; };
 		0D9F20DF21DC931A00210761 /* right2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D9F20D821DC931A00210761 /* right2.mp3 */; };
 		0D9F20E021DC931A00210761 /* moan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D9F20D921DC931A00210761 /* moan.mp3 */; };
@@ -21,6 +19,7 @@
 		0D9F20E221DC931A00210761 /* moan3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D9F20DB21DC931A00210761 /* moan3.mp3 */; };
 		0D9F20E321DC931A00210761 /* right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D9F20DC21DC931A00210761 /* right.mp3 */; };
 		0D9F20E421DC931A00210761 /* moan2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D9F20DD21DC931A00210761 /* moan2.mp3 */; };
+		2923472E084C9B2CA4CD5900 /* Pods_DND_Sound.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86FB6BE09070E86DE18E1398 /* Pods_DND_Sound.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +30,6 @@
 		0D9F20C521DC542100210761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D9F20CB21DC549700210761 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0D9F20CC21DC549700210761 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		0D9F20D021DC85F300210761 /* Standards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standards.swift; sourceTree = "<group>"; };
-		0D9F20D421DC8CFC00210761 /* UIControl+Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Closures.swift"; sourceTree = "<group>"; };
 		0D9F20D721DC931A00210761 /* left.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = left.mp3; sourceTree = "<group>"; };
 		0D9F20D821DC931A00210761 /* right2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = right2.mp3; sourceTree = "<group>"; };
 		0D9F20D921DC931A00210761 /* moan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = moan.mp3; sourceTree = "<group>"; };
@@ -40,6 +37,9 @@
 		0D9F20DB21DC931A00210761 /* moan3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = moan3.mp3; sourceTree = "<group>"; };
 		0D9F20DC21DC931A00210761 /* right.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = right.mp3; sourceTree = "<group>"; };
 		0D9F20DD21DC931A00210761 /* moan2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = moan2.mp3; sourceTree = "<group>"; };
+		86FB6BE09070E86DE18E1398 /* Pods_DND_Sound.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DND_Sound.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B675557369BAE6E54AA3EC46 /* Pods-DND Sound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DND Sound.release.xcconfig"; path = "Pods/Target Support Files/Pods-DND Sound/Pods-DND Sound.release.xcconfig"; sourceTree = "<group>"; };
+		CF129854AC9F8A88CCACD641 /* Pods-DND Sound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DND Sound.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DND Sound/Pods-DND Sound.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2923472E084C9B2CA4CD5900 /* Pods_DND_Sound.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +59,8 @@
 			children = (
 				0D9F20B821DC542000210761 /* DND Sound */,
 				0D9F20B721DC542000210761 /* Products */,
+				54C9FBB456718A0544595B2E /* Pods */,
+				BD8C4ADBCDA3D92BC490D1B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				0D9F20D621DC930800210761 /* Sounds */,
-				0D9F20CF21DC85E300210761 /* Core */,
 				0D9F20B921DC542000210761 /* AppDelegate.swift */,
 				0D9F20CB21DC549700210761 /* HomeViewController.swift */,
 				0D9F20CC21DC549700210761 /* HomeView.swift */,
@@ -82,15 +84,6 @@
 				0D9F20C521DC542100210761 /* Info.plist */,
 			);
 			path = "DND Sound";
-			sourceTree = "<group>";
-		};
-		0D9F20CF21DC85E300210761 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				0D9F20D021DC85F300210761 /* Standards.swift */,
-				0D9F20D421DC8CFC00210761 /* UIControl+Closures.swift */,
-			);
-			path = Core;
 			sourceTree = "<group>";
 		};
 		0D9F20D621DC930800210761 /* Sounds */ = {
@@ -107,6 +100,23 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		54C9FBB456718A0544595B2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF129854AC9F8A88CCACD641 /* Pods-DND Sound.debug.xcconfig */,
+				B675557369BAE6E54AA3EC46 /* Pods-DND Sound.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD8C4ADBCDA3D92BC490D1B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86FB6BE09070E86DE18E1398 /* Pods_DND_Sound.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D9F20C821DC542100210761 /* Build configuration list for PBXNativeTarget "DND Sound" */;
 			buildPhases = (
+				6D74BCB425326C3A4DB23EA1 /* [CP] Check Pods Manifest.lock */,
 				0D9F20B221DC542000210761 /* Sources */,
 				0D9F20B321DC542000210761 /* Frameworks */,
 				0D9F20B421DC542000210761 /* Resources */,
+				B8A2834E779670BE9A32A1A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,15 +191,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D74BCB425326C3A4DB23EA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DND Sound-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8A2834E779670BE9A32A1A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DND Sound/Pods-DND Sound-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CaelinCore/CaelinCore.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CaelinCore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DND Sound/Pods-DND Sound-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D9F20B221DC542000210761 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D9F20D521DC8CFC00210761 /* UIControl+Closures.swift in Sources */,
 				0D9F20CE21DC549700210761 /* HomeView.swift in Sources */,
 				0D9F20BA21DC542000210761 /* AppDelegate.swift in Sources */,
-				0D9F20D121DC85F300210761 /* Standards.swift in Sources */,
 				0D9F20CD21DC549700210761 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +381,7 @@
 		};
 		0D9F20C921DC542100210761 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF129854AC9F8A88CCACD641 /* Pods-DND Sound.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -342,6 +400,7 @@
 		};
 		0D9F20CA21DC542100210761 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B675557369BAE6E54AA3EC46 /* Pods-DND Sound.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
